@@ -35,7 +35,6 @@ func (s *Server) Run(cfg *config.Config, handler http.Handler) error {
 		WriteTimeout:   10 * time.Second,
 		TLSConfig:      tlsConfig,
 	}
-	// return s.httpServer.ListenAndServeTLS(cfg.TLSCart, cfg.TLSKey)
 	return s.httpServer.ListenAndServe()
 }
 

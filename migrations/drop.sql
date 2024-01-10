@@ -6,3 +6,6 @@ DROP TABLE IF EXISTS comments;
 DROP TABLE IF EXISTS session;
 DROP TABLE IF EXISTS comments_votes;
 DROP TABLE IF EXISTS posts_votes;
+DROP TABLE IF EXISTS posts_images;
+DROP TABLE IF EXISTS posts_reports;
+DROP TABLE IF EXISTS notifications;
